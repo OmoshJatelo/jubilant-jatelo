@@ -1,0 +1,66 @@
+div{
+    background-color: burlywood;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 20px;
+
+}
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0a-3uyQ9B4bVyJmbPEeawulA4SLxp7f2cXA&s);
+}
+
+.heading{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.price{
+    display:inline-block;
+    text-align: right;
+    width: 25%;
+    
+}
+.flavor{
+    text-align: left;
+    width: 75%;
+    
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 120px;
+}
+
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+a:active{
+    color: yellow;
+}
+a:hover{
+    color:aqua;
+}
+a:visited{
+    color:blueviolet;
+}
+
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
