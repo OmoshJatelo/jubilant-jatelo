@@ -1,0 +1,51 @@
+
+
+#parent-rectangle{
+    height:600px;
+    width: 500px;
+    background-color: aliceblue;
+    border:25px solid black;
+    padding: 30px ;
+    margin: 0px auto;
+}
+
+#daughter-rectangle{
+    height: 550px;
+    width:400px;
+    background-color: brown;
+    margin:20px auto;
+    overflow:hidden;
+    filter: blur(4px);
+   
+}
+
+#one{
+    height:15%;
+    width:60%;
+    margin: 20px auto 0 auto;
+    background-color: chartreuse;
+    box-shadow: 2px 2px 4px 4px chartreuse;
+    border-radius: 90px;
+    filter: blur(3px);
+    transform: rotate(-0.7deg);
+}
+
+#two{
+    height:30%;
+    width: 95%;
+    margin:10px auto;
+    background-color: chocolate;
+    box-shadow: 2px 2px 4px 4px chocolate;
+    border-radius: 9px 11px;
+    filter: blur(3px);
+    transform: rotate(0.4deg);
+}
+#three{
+    height:40%;
+    width:97%;
+    margin:10px auto 25px;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 3px 4px cornflowerblue;
+    border-radius: 40px 35px 15px 8px;
+    transform: rotate(0.2deg);
+}

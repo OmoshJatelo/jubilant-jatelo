@@ -41,7 +41,7 @@ img{
     display:block;
     margin-left: auto;
     margin-right:auto;
-    width: 120px;
+    width: 130px;
 }
 
 footer{
@@ -50,10 +50,13 @@ footer{
 
 }
 a:active{
-    color: yellow;
+   color: yellow;
+}
+a{
+    color:darkgreen
 }
 a:hover{
-    color:aqua;
+    color:blue;
 }
 a:visited{
     color:blueviolet;
@@ -63,4 +66,7 @@ hr{
     height: 2px;
     background-color: brown;
     border-color: brown;
+}
+footer{
+    font-style: italic;
 }

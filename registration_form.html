@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="registration_form.css">
+        <title>Registration form Jatelo</title>
+    </head>
+    <body>
+        <form action="'https://register-demo.freecodecamp.org'" method="post">
+            <h1>Jatelo Mega Registration Form</h1>
+            <p>Please fill out this form with the required details to enroll in the jatelo project </p>
+            <hr>
+            <fieldset >
+                <legend>Personal Details</legend>
+                <label class="inline"for="first-name">First Name: <input class="inline"type="text" name="first_name" id="first-name" placeholder="Omosh" required></label>
+                <label class="inline"for="second-name">Second Name: <input class="inline"type="text" name="second_name" id="second-name" placeholder="Jatelo" required></label>
+                <label class="inline"for="email">Email Address: <input class="inline"type="email" name="email-address" id="email" placeholder="omoshjatelo35@ovimail.com" required></label>
+                <label class="inline"for="age">Age(years): <input type="number" name="age" id="age" max="120" min="15" required></label><br>
+                <label class="inline"for="picture">Upload your profile picture: <input type="file" name="profile-picture" id="picture"  required></label><br>
+                <label class="inline"for="password">Create a strong new password: <input class="inline"type="password" name="password" id="password" pattern="[a-z0-5]{8,}"  required></label>
+                <label class="inline"for="referrer">How did you hear about Jatelo project?<select class="inline" name="referrer" id="referrer">
+                    <option  value="">(select one)</option>
+                    <option  value="1">news paper</option>
+                    <option  value="2">Jatelo you tube chanel</option>
+                    <option  value="3">Facebook account</option>
+                    <option  value="4">Jatelo mega Annual auditions</option>
+                    <option  value="">other</option>
+                </select></label>
+                <label class="inline" for="boi">Provide your bio: <textarea class="inline" name="bio" id="bio" placeholder="I am enthusiast of programing..." required></textarea></label>
+            </fieldset>
+            <hr>
+
+            <fieldset class="block" >
+                <legend>Which account type do you want to open?</legend>
+                <label class="account" for="personal"><input  type="radio" name="account_type" id="personal" value="pesonal" checked> Personal </label>
+                <label class="account" for="business"><input   type="radio" name="account_type" id="business" value="business"> Business </label>
+            </fieldset>
+            <hr>
+            <fieldset class="block">
+                <p>By clicking Accept, you allow us to <br>process your personal information</p>
+                <label  for="accept"><input class="account" type="checkbox" name="declaration" id="accept" required> Accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> </label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit">
+            <hr>
+
+        </form>
+        
+    </body>
+
+</html>

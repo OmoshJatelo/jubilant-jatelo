@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255,255,255);
+}
+.red{
+    background:linear-gradient(rgba(180,46,76,0.75),rgb(180,46,78,0.4),rgb(180,79,96,0.67));
+    height: 25px;
+    width: 200px;
+}
+.green{
+    background:linear-gradient(rgba(78,200,76,0.75),rgb(57,150,78,0.4),rgb(79,180,79,0.67));
+    height: 25px;
+    width: 200px;
+}
+.blue{
+    background:linear-gradient(rgba(67,46,180,0.75),rgb(55,46,180,0.2),rgb(67,79,180,0.67));
+    height: 25px;
+    width: 200px;
+}
+.red,.green,.blue{
+    margin: 12px auto;
+}
+h1{
+    text-align: center;
+    color: deeppink;
+    margin: 35px auto;
+
+}
