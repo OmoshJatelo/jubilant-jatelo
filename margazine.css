@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+}/* select the whole document and apply the styles to the first and last part of every element*/
 
 html {
   font-size: 62.5%;
@@ -33,11 +33,31 @@ main {
   display: grid;
   grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
   row-gap: 3rem;
-}
+}/*display: grid;
+
+    This makes the main element a grid container.
+    All direct children of main become grid items.grid-template-columns:
+
+    Defines the column structure of the grid.
+    This layout has three columns with flexible sizes:
+        Column 1: minmax(2rem, 1fr)
+            The column will have a minimum width of 2rem but can grow to take up any available space (1fr).
+            Typically used for margins or spacing on the left side.
+        Column 2: minmax(min-content, 94rem)
+            The column will be as small as the content inside it (minimum size = min-content) but will not grow beyond 94rem.
+            This is likely the main content area.
+        Column 3: minmax(2rem, 1fr)
+            Similar to Column 1, it provides a minimum margin of 2rem and can grow to fill available space on the right.
+
+row-gap: 3rem;
+
+    Adds 3rem of vertical spacing between grid rows.
+    This ensures consistent spacing between stacked grid items.*/
 
 img {
   width: 100%;
-  object-fit: cover;
+  object-fit: cover;/*This ensures that the image fills its container completely without distortion.
+*/
 }
 
 hr {
@@ -49,7 +69,8 @@ hr {
   grid-column: 2 / 3;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 1.5rem;
+  row-gap: 1.5rem;/*The repeat() function is a shorthand to create repetitive grid columns. In this case, it creates 2 equal columns.
+  Each column has a width of 1fr (1 fraction of the available space). This ensures the columns evenly divide the container's width.*/
 }
 
 .text {
@@ -159,7 +180,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {/*The rule applies only to screens (like monitors, tablets, or phones) with a maximum width of 600 pixels.*/
   .text-with-images {
     grid-template-columns: 1fr;
   }

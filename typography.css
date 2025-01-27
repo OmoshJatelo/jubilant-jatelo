@@ -90,7 +90,7 @@
     margin-left: 2em;
   }
   
-  .daily-value p:not(.no-divider) {
+  .daily-value p:not(.no-divider) {/*Targets <p> elements inside any element with the class daily-value unless the <p> has a class of no-divider*/
     border-bottom: 1px solid #888989;
   }
   
@@ -98,5 +98,6 @@
     font-size: 0.6rem;
     margin: 5px 0;
     padding:0 8px;
-    text-indent:-8px;
+    text-indent:-8px;/*Indents the first line of text inside the <p> element by -8px, effectively pulling it 8 pixels to the left.
+    */
   }
